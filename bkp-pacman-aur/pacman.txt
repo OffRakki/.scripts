@@ -370,8 +370,6 @@ kio
 kirigami2
 kitemmodels
 kitemviews
-kitty
-kitty-terminfo
 kjobwidgets
 kmod
 knewstuff
