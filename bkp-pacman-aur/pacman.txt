@@ -67,6 +67,7 @@ breeze
 breeze-icons
 brltty
 brotli
+bspwm
 btrfs-progs
 bubblewrap
 bzip2
@@ -171,6 +172,7 @@ filesystem
 findutils
 fish
 flac
+flameshot
 flatpak
 flex
 fluidsynth
