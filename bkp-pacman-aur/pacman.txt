@@ -1205,6 +1205,7 @@ s-nail
 sane
 sbc
 sbxkb
+scdoc
 screenfetch
 scrot
 sdl

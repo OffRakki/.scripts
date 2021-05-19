@@ -20,6 +20,7 @@ linux59-headers
 linux59-nvidia
 linux59-virtualbox-host-modules
 mhwd-nvidia-340xx
+mpris-ctl
 multimc-git
 navi
 neovide
