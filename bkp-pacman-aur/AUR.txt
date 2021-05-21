@@ -6,6 +6,8 @@ cava
 chatterino2-git
 colorpicker
 cpufetch-git
+cpuminer-multi
+deadbeef
 droidcam
 escrotum-git
 ethminer-cuda
@@ -15,6 +17,7 @@ google-chrome
 jdk
 jre
 kappa-launcher-git
+libcurl-openssl-1.0
 linux59
 linux59-headers
 linux59-nvidia
@@ -28,15 +31,11 @@ oneko
 openrazer-daemon
 openrazer-driver-dkms
 openrazer-meta
-opentabletdriver-git
 p3x-onenote
 paru
 pipes.sh
 polychromatic
-python-dbus
-python-dbus-common
 python-openrazer
-python2-dbus
 pywal-git
 scrcpy
 siji

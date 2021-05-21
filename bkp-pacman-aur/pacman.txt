@@ -17,7 +17,9 @@ alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
 android-tools
+android-udev
 aom
+apache
 apparmor
 appstream
 appstream-glib
@@ -107,8 +109,9 @@ dav1d
 db
 dbus
 dbus-glib
+dbus-python
 dconf
-deadbeef
+dejagnu
 deluge
 desktop-file-utils
 device-mapper
@@ -134,6 +137,7 @@ dotnet-sdk
 dotnet-targeting-pack
 double-conversion
 downgrade
+doxygen
 dtc
 dunst
 dunstify
@@ -158,6 +162,7 @@ exiv2
 exo
 expac
 expat
+expect
 f2fs-tools
 faac
 faad2
@@ -776,6 +781,7 @@ licenses
 lightdm
 lightdm-settings
 lightdm-slick-greeter
+lighttpd
 lilv
 linux-api-headers
 linux-firmware
@@ -899,6 +905,7 @@ networkmanager-pptp
 networkmanager-vpnc
 nfs-utils
 nfsidmap
+nginx
 ninja
 nitrogen
 nm-connection-editor
@@ -934,6 +941,7 @@ openmpi
 openresolv
 openssh
 openssl
+openssl-1.0
 openvpn
 opus
 orc
