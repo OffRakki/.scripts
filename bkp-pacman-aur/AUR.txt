@@ -38,6 +38,7 @@ polychromatic
 python-openrazer
 pywal-git
 scrcpy
+screencast
 siji
 simple-mtpfs
 soundwire

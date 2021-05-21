@@ -949,6 +949,7 @@ os-prober
 osinfo-db
 ostree
 otf-ipafont
+oxygen-icons
 p11-kit
 p7zip
 pacman
@@ -1227,6 +1228,7 @@ shaderc
 shadow
 shared-mime-info
 slang
+slop
 smbclient
 snapd
 snappy
