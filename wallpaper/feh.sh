@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-sleep 2 && feh --bg-scale -z ~/Pictures/Wallpapers/megumin.png
+sleep 2 && feh --bg-scale -z ~/Pictures/Wallpapers/aesthetic/*
