@@ -1,5 +1,6 @@
 a52dec
 aalib
+accounts-qml-module
 accountsservice
 acl
 acpi
@@ -94,6 +95,7 @@ colord-sane
 confuse
 conky
 conky-i3
+convertlit
 coreutils
 cpupower
 crda
@@ -142,6 +144,7 @@ dtc
 dunst
 dunstify
 e2fsprogs
+ebook-tools
 ecryptfs-utils
 editorconfig-core-c
 efibootmgr
@@ -188,12 +191,14 @@ foomatic-db-gutenprint-ppds
 frameworkintegration
 freeglut
 freetype2
+frei0r-plugins
 fribidi
 fuse-common
 fuse2
 fuse3
 fzf
 game-devices-udev
+gavl
 gawk
 gc
 gcab
@@ -338,6 +343,7 @@ js78
 json-c
 json-glib
 jsoncpp
+kaccounts-integration
 kactivities
 kactivities-stats
 kactivitymanagerd
@@ -361,9 +367,11 @@ kdeconnect
 kdecoration
 kded
 kdelibs4support
+kdenlive
 kdesu
 kemoticons
 keyutils
+kfilemetadata
 kglobalaccel
 kguiaddons
 kholidays
@@ -515,6 +523,8 @@ lib32-wayland
 lib32-xz
 lib32-zlib
 lib32-zstd
+libaccounts-glib
+libaccounts-qt
 libaio
 libappindicator-gtk2
 libappindicator-gtk3
@@ -565,6 +575,7 @@ libdvdcss
 libdvdnav
 libdvdread
 libebml
+libebur128
 libedit
 libelf
 libepoxy
@@ -714,6 +725,7 @@ libthai
 libtheora
 libtiff
 libtirpc
+libtommath
 libtool
 libtorrent-rasterbar
 libunistring
@@ -868,6 +880,7 @@ mkinitcpio
 mkinitcpio-busybox
 mkinitcpio-openswap
 mlocate
+mlt6
 mobile-broadband-provider-info
 moc
 modemmanager
@@ -1036,6 +1049,7 @@ polybar
 poppler
 poppler-data
 poppler-glib
+poppler-qt5
 popt
 portaudio
 postgresql-libs
@@ -1054,6 +1068,7 @@ pulseaudio-equalizer
 pulseaudio-qt
 pulseeffects
 pulsemixer
+purpose
 py3status
 python
 python-anytree
@@ -1154,6 +1169,7 @@ qt5-declarative
 qt5-graphicaleffects
 qt5-location
 qt5-multimedia
+qt5-networkauth
 qt5-quickcontrols
 qt5-quickcontrols2
 qt5-script
@@ -1186,6 +1202,7 @@ rpcbind
 rsync
 rtkit
 rtmpdump
+rttr
 rubberband
 ruby
 ruby-diff-lcs
@@ -1227,6 +1244,10 @@ sg3_utils
 shaderc
 shadow
 shared-mime-info
+signon-kwallet-extension
+signon-plugin-oauth2
+signon-ui
+signond
 slang
 slop
 smbclient
