@@ -66,7 +66,6 @@ bmenu
 boost
 boost-libs
 bpytop
-brave
 breeze
 breeze-icons
 brltty
@@ -963,6 +962,7 @@ orc
 os-prober
 osinfo-db
 ostree
+otf-font-awesome
 otf-ipafont
 oxygen-icons
 p11-kit
@@ -1315,7 +1315,9 @@ ttf-comfortaa
 ttf-dejavu
 ttf-droid
 ttf-fira-code
+ttf-font-awesome
 ttf-font-icons
+ttf-font-logos
 ttf-hack
 ttf-inconsolata
 ttf-indic-otf
