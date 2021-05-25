@@ -3,6 +3,7 @@ apg
 bitwarden-cli
 canvas-git
 cava
+cgminer
 chatterino2-git
 colorpicker
 cpufetch-git

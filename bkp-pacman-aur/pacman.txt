@@ -66,11 +66,11 @@ bmenu
 boost
 boost-libs
 bpytop
+brave
 breeze
 breeze-icons
 brltty
 brotli
-bspwm
 btrfs-progs
 bubblewrap
 bzip2
@@ -542,6 +542,8 @@ libbs2b
 libbsd
 libburn
 libbytesize
+libc++
+libc++abi
 libcaca
 libcacard
 libcanberra
