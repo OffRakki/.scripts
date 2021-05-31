@@ -5,6 +5,7 @@ chatterino2-git
 colorpicker
 davinci-resolve
 deadbeef
+downgrade
 escrotum-git
 flavours
 gconf
@@ -17,6 +18,8 @@ libglade
 mpris-ctl
 neovide
 neovim-remote
+network-manager-applet-gtk2-jlindgren90-git
+ocs-url
 oneko
 openrazer-daemon
 openrazer-driver-dkms-git

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sleep 3 && xdotool key ctrl+shift+n &&
-	sleep 2 && xdotool type "https://a.aliexpress.com/_mKO8IWd" && sleep 1 && xdotool key 36 &&
+	sleep 2 && xdotool type "https://a.aliexpress.com/_mMJseEh" && sleep 1 && xdotool key 36 &&
 	sleep 3 && xdotool key ctrl+shift+i && sleep 2 && xdotool key 71 &&
 	xdotool mousemove 3068 665 && sleep 4 && xdotool click 1 &&  xdotool mousemove 3020 426 && sleep 3 && xdotool click 1 &&
 	xdotool key ctrl+t && sleep 0.5 && xdotool type "https://www.invertexto.com/gerador-email-temporario" && sleep 1 && xdotool key 36 &&
