@@ -1,3 +1,3 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
-rofi -show run -theme ~/.config/rofi/themes/flamingo.rasi -font "monospace bold 10" -show combi -icon-theme "Papirus" -show-icons
+rofi -modi "drun,run,file-browser" -theme ~/.config/rofi/themes/uwu.rasi -show drun -icon-theme "Infinity-Dark-Icons" -show-icons

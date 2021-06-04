@@ -28,11 +28,13 @@ babl
 base
 bash
 bat
+bc
 bdf-unifont
 binutils
 bison
 blas
 bluez-libs
+boost
 boost-libs
 bpytop
 breeze-icons
@@ -50,6 +52,7 @@ cairomm
 cantarell-fonts
 cblas
 cdparanoia
+cmake
 cmus
 colord
 confuse
@@ -185,6 +188,7 @@ harfbuzz-icu
 hicolor-icon-theme
 hidapi
 http-parser
+httpie
 hwids
 hwloc
 hyphen
@@ -207,7 +211,11 @@ itstool
 jack
 jansson
 jasper
+java-runtime-common
 jbig2dec
+jq
+jre8-openjdk
+jre8-openjdk-headless
 js78
 json-c
 json-glib
@@ -633,7 +641,9 @@ nvidia-utils
 nvtop
 obs-studio
 ocl-icd
+oniguruma
 openal
+openbsd-netcat
 opencl-nvidia
 opencore-amr
 openexr
@@ -685,6 +695,7 @@ portaudio
 procps-ng
 protobuf
 psmisc
+pth
 pulseaudio
 pulseaudio-qt
 python
@@ -729,8 +740,10 @@ python-pynvim
 python-pyopenssl
 python-pyparsing
 python-pyroute2
+python-pysocks
 python-pyudev
 python-requests
+python-requests-toolbelt
 python-resolvelib
 python-retrying
 python-setproctitle
@@ -769,6 +782,7 @@ rclone
 re2
 readline
 rest
+rhash
 ripgrep
 rofi
 rsync
@@ -855,6 +869,7 @@ webkit2gtk
 webrtc-audio-processing
 wget
 which
+whois
 wine-staging
 winetricks
 woff2

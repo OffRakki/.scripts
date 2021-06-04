@@ -7,6 +7,8 @@ davinci-resolve
 deadbeef
 downgrade
 escrotum-git
+ethminer-cuda
+factorio
 flavours
 gconf
 gksu
