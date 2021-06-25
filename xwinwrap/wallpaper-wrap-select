@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+rofi -show file-browser-extended -file-browser-dir $HOME/AnimatedWallpapers/\
+    -file-browser-stdout -file-browser-hide-parent -file-browser-disable-status\
+    -file-browser-disable-icons -theme ~/.config/rofi/themes/uwuxwinwrap.rasi\
+    > ~/.scripts/xwinwrap/wallpaper-select &&
+
+killall xwinwrap
+
+wallpaper=$(cat $HOME/.scripts/xwinwrap/wallpaper-select)
+
+xwinwrap -g 1920x1080+0+0 -un -ni -b -nf -ov -- $HOME/.scripts/xwinwrap/wallpaper-mpv WID $wallpaper &
+xwinwrap -g 1920x1080+1920+130 -un -ni -b -nf -ov -- $HOME/.scripts/xwinwrap/wallpaper-mpv WID $wallpaper &

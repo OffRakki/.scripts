@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+wallpaper=$(find ~/AnimatedWallpapers/ | shuf -n 1)
+
+xwinwrap -g 1920x1080+0+0 -un -ni -b -nf -ov -- $HOME/.scripts/xwinwrap/wallpaper-mpv WID $wallpaper &
+xwinwrap -g 1920x1080+1920+130 -un -ni -b -nf -ov -- $HOME/.scripts/xwinwrap/wallpaper-mpv WID $wallpaper &

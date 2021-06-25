@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+choose=$(find $HOME/AnimatedWallpapers/ -type f | cut -d '/' -f5 | sort -r | alacritty-fzf) && wallpaper=$HOME/AnimatedWallpapers/$choose || exit
+
+killall xwinwrap
+
+xwinwrap -g 1920x1080+0+0 -un -ni -b -nf -ov -- $HOME/.scripts/xwinwrap/wallpaper-mpv WID $wallpaper &
+xwinwrap -g 1920x1080+1920+130 -un -ni -b -nf -ov -- $HOME/.scripts/xwinwrap/wallpaper-mpv WID $wallpaper &
