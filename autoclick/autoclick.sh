@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-xdotool click --repeat 100 --delay 18 1
+xdotool click --repeat 101 --delay 18 1
