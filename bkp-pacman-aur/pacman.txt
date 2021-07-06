@@ -196,6 +196,7 @@ gst-libav
 gst-plugins-base
 gst-plugins-base-libs
 gstreamer
+gtest
 gtk-doc
 gtk-engine-murrine
 gtk-update-icon-cache
@@ -686,7 +687,9 @@ luit
 lutris
 lvm2
 lxappearance-gtk3
+lxc
 lz4
+lzip
 lzo
 m4
 make
@@ -981,6 +984,7 @@ sbc
 screen
 sdl
 sdl2
+sdl2_image
 sdl_image
 sed
 shaderc

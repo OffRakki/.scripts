@@ -47,6 +47,7 @@ p3x-onenote
 pipes.sh
 polybar
 polychromatic
+properties-cpp
 pulseaudio-dlna
 pygtk
 python-casttube
