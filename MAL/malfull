@@ -1,10 +1,16 @@
 #!/usr/bin/env bash
 
-if [ -n "$2" ]; then
-    wanted="/$2"
+if [ -n "$3" ]; then
+    wanted="/$3"
 else
     wanted=""
 fi
 
-id=$(https "api.jikan.moe/v3/search/anime?q=$1" | jq ".results[0].mal_id") &&\
+if [ -n "$2" ]; then
+    type="&type=$2"
+else
+    type=""
+fi
+
+id=$(https "api.jikan.moe/v3/search/anime?q=$1$type" | jq ".results[0].mal_id") &&\
     https api.jikan.moe/v3/anime/$id$wanted

@@ -7,6 +7,7 @@ id=$(https "api.jikan.moe/v3/search/anime?q=$1" | jq ".results[0].mal_id") &&\
     "{anime: .title, \
     title_japanese: .title_japanese, \
     title_english: .title_english, \
+    type: .type \
     premiered: .premiered, \
     status: .status, \
     studio: .studios[0].name, \
