@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+## producers e genres
+
+id=$(https "api.jikan.moe/v3/search/anime?q=$1" | jq ".results[0].mal_id") &&\
+    https api.jikan.moe/v3/anime/$id | jq \
+    "{anime: .title, \
+    title_japanese: .title_japanese, \
+    title_english: .title_english, \
+    premiered: .premiered, \
+    status: .status, \
+    studio: .studios[0].name, \
+    rating: .rating, \
+    episodes: .episodes, \
+    duration: .duration, \
+    score: .score, \
+    rank: .rank, \
+    scored_by: .scored_by, \
+    members: .members, \
+    favorites: .favorites}"

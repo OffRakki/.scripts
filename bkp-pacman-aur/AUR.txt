@@ -13,9 +13,11 @@ flavours
 gconf
 gksu
 google-chrome
+gtk-theme-switch2
 haguichi
 i3lock-color
 input-wacom-dkms
+libdispatch
 libgksu
 libglade
 libnm-glib
@@ -27,6 +29,7 @@ multimc-bin
 neovide
 neovim-remote
 network-manager-applet-gtk2-jlindgren90-git
+nvm
 ocaml-luv
 ocaml-lwt
 ocaml-migrate-parsetree2
@@ -54,6 +57,8 @@ python-casttube
 python-openrazer
 python-pychromecast6
 python2-gobject2
+qt5-styleplugins
+qt6gtk2
 rofi-file-browser-extended-git
 satanic-icon-themes
 scrcpy

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -n "$2" ]; then
+    pic="$2"
+else
+    pic="0"
+fi
+
+image_url=$(id=$(https "api.jikan.moe/v3/search/anime?q=$1" | jq ".results[0].mal_id") && https api.jikan.moe/v3/anime/$id/pictures | jq -r ".pictures[$pic].large") && https "$image_url" | imv -
