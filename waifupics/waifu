@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+column -tL $HOME/.scripts/waifupics/list.txt
+echo ""
+echo "Select type: "
+
+read -r type &&
+
+echo "Select category: "
+read -r category &&
+
+pic=$(https "https://api.waifu.pics/$type/$category" | jq -r '.url') && https "$pic" | imv -

@@ -3,7 +3,7 @@
 eth_in_usd=$(https GET "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD" | jq '.USD')
 eth_in_brl=$(https GET "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BRL" | jq '.BRL')
 
-workers=$(https GET https://flexpool.io/api/v1/miner/0xB9c434215c09E8c4D6b621E6488D55E1d20CE446/workers/)
+workers=$(https GET https://flexpool.io/api/v2/pool/miner/0xB9c434215c09E8c4D6b621E6488D55E1d20CE446/workers/)
 
 worker_name=$(echo "$workers" | jq '.result | .[0] | .name')
 worker_online=$(echo "$workers" | jq '.result | .[0] | .online')

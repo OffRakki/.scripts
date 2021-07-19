@@ -4,6 +4,7 @@ cava
 chatterino2-git
 colorpicker
 cppo
+cpuminer
 deadbeef
 downgrade
 escrotum-git
@@ -23,6 +24,8 @@ libglade
 libnm-glib
 logmein-hamachi
 mailspring
+mangohud
+mangohud-common
 minecraft-launcher
 mpris-ctl
 multimc-bin
@@ -45,13 +48,14 @@ oneko
 openrazer-daemon
 openrazer-driver-dkms-git
 opentabletdriver-git
-osu-lazer-git
+osu-lazer-bin
 p3x-onenote
 pipes.sh
 polybar
 polychromatic
 properties-cpp
 pulseaudio-dlna
+pulseeffects-legacy
 pygtk
 python-casttube
 python-openrazer
@@ -59,6 +63,7 @@ python-pychromecast6
 python2-gobject2
 qt5-styleplugins
 qt6gtk2
+rnnoise-git
 rofi-file-browser-extended-git
 satanic-icon-themes
 scrcpy

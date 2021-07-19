@@ -1,13 +1,19 @@
 #!/usr/bin/env bash
 
-## producers e genres
+if [ -n "$2" ]; then
+    type="&type=$2"
+else
+    type=""
+fi
 
-id=$(https "api.jikan.moe/v3/search/anime?q=$1" | jq ".results[0].mal_id") &&\
+id=$(https "api.jikan.moe/v3/search/anime?q=$1$type" | jq ".results[0].mal_id") &&\
     https api.jikan.moe/v3/anime/$id | jq \
     "{anime: .title, \
     title_japanese: .title_japanese, \
     title_english: .title_english, \
-    type: .type \
+    type: .type, \
+    genres: [ .genres[].name  ], \
+    producers: [ .producers[].name  ], \
     premiered: .premiered, \
     status: .status, \
     studio: .studios[0].name, \
