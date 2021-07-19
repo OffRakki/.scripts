@@ -15,7 +15,6 @@ android-tools
 android-udev
 ant
 aom
-apparmor
 archlinux-keyring
 argon2
 aribb24
@@ -136,7 +135,6 @@ filesystem
 findutils
 fio
 firefox
-firejail
 fish
 flac
 flameshot

@@ -2,8 +2,8 @@
 
 column -tL $HOME/.scripts/waifupics/list.txt
 echo ""
-echo "Select type: "
 
+echo "Select type: "
 read -r type &&
 
 echo "Select category: "
