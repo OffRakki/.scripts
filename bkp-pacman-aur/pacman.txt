@@ -1,1332 +1,288 @@
-a52dec
-aalib
-accounts-qml-module
-acl
-adobe-source-code-pro-fonts
-adwaita-icon-theme
-alacritty
-alsa-card-profiles
-alsa-lib
-alsa-plugins
-alsa-topology-conf
-alsa-ucm-conf
-alsa-utils
-android-tools
-android-udev
-ant
-aom
-archlinux-keyring
-argon2
-aribb24
-aribb25
-arpack
-asciidoc
-asciinema
-at-spi2-atk
-at-spi2-core
-atk
-atkmm
-attica
-attr
-audit
-autoconf
-automake
-avahi
-babl
-base
-bash
-bat
-bc
-bdf-unifont
-binutils
-bison
-blas
-bluez-libs
-boost-libs
-box2d
-bpytop
-breeze-icons
-brotli
-btrfs-progs
-bubblewrap
-bzip2
-c-ares
-ca-certificates
-ca-certificates-mozilla
-ca-certificates-utils
-cabextract
-cairo
-cairomm
-calf
-cantarell-fonts
-cblas
-cdparanoia
-cdrtools
-chromaprint
-cifs-utils
-clang
-clucene
-cmake
-cmus
-colord
-compiler-rt
-confuse
-convertlit
-coreutils
-cowsay
-cryptsetup
-ctemplate
-cuda
-curl
-dav1d
-db
-dbus
-dbus-glib
-dbus-python
-dconf
-desktop-file-utils
-device-mapper
-diffutils
-discord
-dkms
-dmenu
-dmraid
-dnssec-anchors
-docbook-xml
-docbook-xsl
-dos2unix
-dosfstools
-dotnet-host
-dotnet-runtime
-dotnet-sdk
-dotnet-targeting-pack
-double-conversion
-dune
-dunst
-e2fsprogs
-ebook-tools
-efibootmgr
-efivar
-egl-wayland
-eglexternalplatform
-electron
-electron12
-element-desktop
-element-web
-elementary-icon-theme
-elfutils
-enchant
-entr
-exa
-exempi
-exiv2
-exo
-expat
-faac
-faad2
-fakeroot
-faudio
-feh
-ffmpeg
-ffmpegthumbnailer
-fftw
-file
-filesystem
-findutils
-fio
-firefox
-fish
-flac
-flameshot
-flex
-fluidsynth
-fontconfig
-freeglut
-freeimage
-freetype2
-frei0r-plugins
-fribidi
-ftgl
-fuse-common
-fuse2
-fuse3
-fzf
-gavl
-gawk
-gc
-gcc
-gcc-libs
-gcc10
-gcc10-libs
-gcr
-gd
-gdbm
-gdk-pixbuf2
-gegl
-geoclue
-geocode-glib
-gettext
-ghostscript
-giflib
-gimp
-git
-gl2ps
-glew
-glib-networking
-glib2
-glib2-docs
-glibc
-glibmm
-glm
-glpk
-glslang
-glu
-glusterfs
-gmp
-gnome-autoar
-gnome-desktop
-gnome-icon-theme
-gnome-icon-theme-symbolic
-gnome-keyring
-gnu-free-fonts
-gnupg
-gnutls
-go
-go-ethereum
-go-tools
-gobject-introspection-runtime
-gparted
-gpgme
-gpm
-gptfdisk
-graphene
-graphicsmagick
-graphite
-graphviz
-grep
-groff
-grub
-gsettings-desktop-schemas
-gsettings-qt
-gsfonts
-gsl
-gsm
-gssdp
-gst-libav
-gst-plugin-gtk
-gst-plugins-bad
-gst-plugins-bad-libs
-gst-plugins-base
-gst-plugins-base-libs
-gst-plugins-good
-gstreamer
-gtest
-gtk-doc
-gtk-engine-murrine
-gtk-update-icon-cache
-gtk2
-gtk3
-gtkmm
-gtkmm3
-gts
-guile
-gupnp
-gupnp-dlna
-gupnp-igd
-gvfs
-gzip
-harfbuzz
-harfbuzz-icu
-hdf5
-hdparm
-hicolor-icon-theme
-hidapi
-htop
-http-parser
-httpie
-hunspell
-hwids
-hwloc
-hyphen
-i3-gaps
-i3blocks
-i3status
-iana-etc
-icu
-ijs
-imagemagick
-imath
-imlib2
-imv
-iniparser
-intel-ucode
-intltool
-iproute2
-iptables
-iputils
-iso-codes
-itstool
-jack
-jansson
-jasper
-java-environment-common
-java-runtime-common
-java11-openjfx
-java8-openjfx
-jbig2dec
-jdk-openjdk
-jdk11-openjdk
-jdk8-openjdk
-jq
-jre-openjdk
-jre-openjdk-headless
-jre11-openjdk
-jre11-openjdk-headless
-jre8-openjdk
-jre8-openjdk-headless
-js78
-json-c
-json-glib
-jsoncpp
-jxrlib
-kaccounts-integration
-karchive
-kauth
-kbd
-kbookmarks
-kcmutils
-kcodecs
-kcompletion
-kconfig
-kconfigwidgets
-kcontacts
-kcoreaddons
-kcrash
-kdbusaddons
-kdeclarative
-kdeconnect
-kded
-kdenlive
-kdiskmark
-keyutils
-kfilemetadata
-kglobalaccel
-kguiaddons
-ki18n
-kiconthemes
-kio
-kirigami2
-kitemmodels
-kitemviews
-kjobwidgets
-kmod
-knewstuff
-knotifications
-knotifyconfig
-kpackage
-kparts
-kpeople
-kpeoplevcard
-krb5
-krita
-krusader
-kservice
-ktextwidgets
-kvantum-qt5
-kvantum-theme-materia
-kwallet
-kwayland
-kwidgetsaddons
-kwindowsystem
-kxmlgui
-l-smash
-lame
-lapack
-lcms2
-ldb
-ldns
-lensfun
-less
-lib32-acl
-lib32-alsa-lib
-lib32-alsa-plugins
-lib32-attr
-lib32-bzip2
-lib32-curl
-lib32-db
-lib32-dbus
-lib32-e2fsprogs
-lib32-expat
-lib32-faudio
-lib32-flac
-lib32-fontconfig
-lib32-freetype2
-lib32-gcc-libs
-lib32-gettext
-lib32-glib2
-lib32-glibc
-lib32-glu
-lib32-gmp
-lib32-gnutls
-lib32-harfbuzz
-lib32-icu
-lib32-jack
-lib32-keyutils
-lib32-krb5
-lib32-lcms2
-lib32-libasyncns
-lib32-libcap
-lib32-libdrm
-lib32-libelf
-lib32-libffi
-lib32-libgcrypt
-lib32-libglvnd
-lib32-libgpg-error
-lib32-libice
-lib32-libidn2
-lib32-libjpeg-turbo
-lib32-libldap
-lib32-libnl
-lib32-libnsl
-lib32-libogg
-lib32-libpcap
-lib32-libpciaccess
-lib32-libpng
-lib32-libpsl
-lib32-libpulse
-lib32-libsamplerate
-lib32-libsm
-lib32-libsndfile
-lib32-libssh2
-lib32-libtasn1
-lib32-libtiff
-lib32-libtirpc
-lib32-libunistring
-lib32-libunwind
-lib32-libvorbis
-lib32-libx11
-lib32-libxau
-lib32-libxcb
-lib32-libxcrypt
-lib32-libxcursor
-lib32-libxdamage
-lib32-libxdmcp
-lib32-libxext
-lib32-libxfixes
-lib32-libxi
-lib32-libxml2
-lib32-libxrandr
-lib32-libxrender
-lib32-libxshmfence
-lib32-libxss
-lib32-libxtst
-lib32-libxxf86vm
-lib32-llvm-libs
-lib32-lm_sensors
-lib32-mesa
-lib32-ncurses
-lib32-nettle
-lib32-nspr
-lib32-nss
-lib32-nvidia-utils
-lib32-openssl
-lib32-opus
-lib32-p11-kit
-lib32-pam
-lib32-pcre
-lib32-portaudio
-lib32-readline
-lib32-sdl2
-lib32-sqlite
-lib32-systemd
-lib32-util-linux
-lib32-vulkan-icd-loader
-lib32-wayland
-lib32-xz
-lib32-zlib
-lib32-zstd
-libabw
-libaccounts-glib
-libaccounts-qt
-libaec
-libaio
-libappindicator-gtk3
-libarchive
-libass
-libassuan
-libasyncns
-libatasmart
-libatomic_ops
-libavc1394
-libavif
-libavtp
-libb2
-libblockdev
-libbluray
-libbs2b
-libbsd
-libbytesize
-libcaca
-libcanberra
-libcap
-libcap-ng
-libcddb
-libcdio
-libcdio-paranoia
-libcdr
-libcloudproviders
-libcmis
-libcolord
-libconfig
-libcroco
-libcue
-libcups
-libcurl-gnutls
-libdaemon
-libdatrie
-libdbusmenu-glib
-libdbusmenu-gtk3
-libdbusmenu-qt5
-libdc1394
-libdca
-libde265
-libdiscid
-libdrm
-libdv
-libdvbpsi
-libdvdcss
-libdvdnav
-libdvdread
-libe-book
-libebml
-libebur128
-libedit
-libelf
-libepoxy
-libepubgen
-libetonyek
-libev
-libevdev
-libevent
-libexif
-libexttextcat
-libfakekey
-libfdk-aac
-libffi
-libfontenc
-libfreehand
-libftdi
-libgcrypt
-libgexiv2
-libgit2
-libglvnd
-libgme
-libgnome-keyring
-libgoom2
-libgpg-error
-libgrss
-libgsf
-libgtop
-libgudev
-libgusb
-libgxps
-libhandy
-libheif
-libibus
-libice
-libid3tag
-libidn
-libidn2
-libiec61883
-libimagequant
-libimobiledevice
-libindicator-gtk3
-libinih
-libinput
-libinstpatch
-libiptcdata
-libixion
-libjpeg-turbo
-libkate
-libksba
-libkscreen
-liblangtag
-libldac
-libldap
-liblqr
-liblrdf
-libluv
-liblxqt
-libmad
-libmanette
-libmatroska
-libmfx
-libmicrodns
-libmicrohttpd
-libmm-glib
-libmms
-libmng
-libmnl
-libmodplug
-libmpc
-libmpcdec
-libmpdclient
-libmpeg2
-libmspub
-libmtp
-libmwaw
-libmypaint
-libnautilus-extension
-libndp
-libnet
-libnetfilter_conntrack
-libnewt
-libnfnetlink
-libnfs
-libnftnl
-libnghttp2
-libnice
-libnl
-libnm
-libnotify
-libnsgif
-libnsl
-libnumbertext
-libodfgen
-libofa
-libogg
-libomxil-bellagio
-libopenaptx
-liborcus
-libosinfo
-libp11-kit
-libpagemaker
-libpaper
-libpcap
-libpciaccess
-libpgm
-libpipeline
-libplacebo
-libplist
-libpng
-libportal
-libproxy
-libpsl
-libpulse
-libqalculate
-libqtxdg
-libquvi
-libquvi-scripts
-libqxp
-libraqm
-libraw
-libraw1394
-libreoffice-fresh
-librevenge
-librsvg
-libsamplerate
-libsasl
-libseccomp
-libsecret
-libshout
-libsigc++
-libsm
-libsndfile
-libsodium
-libsoup
-libsoxr
-libspiro
-libsrtp
-libssh
-libssh2
-libstaroffice
-libstemmer
-libtar
-libtasn1
-libteam
-libtermkey
-libthai
-libtheora
-libtiff
-libtiger
-libtirpc
-libtommath
-libtool
-libtorrent-rasterbar
-libunistring
-libunwind
-libupnp
-liburcu
-liburing
-libusb
-libusb-compat
-libusbmuxd
-libutempter
-libuv
-libva
-libvdpau
-libvisio
-libvisual
-libvorbis
-libvpx
-libvterm
-libwacom
-libwebp
-libwmf
-libwpd
-libwpe
-libwpg
-libwps
-libx11
-libxau
-libxaw
-libxcb
-libxcomposite
-libxcrypt
-libxcursor
-libxdamage
-libxdg-basedir
-libxdmcp
-libxext
-libxfce4ui
-libxfce4util
-libxfixes
-libxfont2
-libxft
-libxi
-libxinerama
-libxkbcommon
-libxkbcommon-x11
-libxkbfile
-libxml2
-libxmu
-libxnvctrl
-libxpm
-libxrandr
-libxrender
-libxshmfence
-libxslt
-libxss
-libxt
-libxtst
-libxv
-libxxf86vm
-libyaml
-libyuv
-libzip
-libzmf
-licenses
-lilv
-linux
-linux-api-headers
-linux-firmware
-linux-headers
-linux-zen
-linux-zen-headers
-lirc
-live-media
-llvm
-llvm-libs
-lm_sensors
-lmdb
-lolcat
-lpsolve
-lsb-release
-lsof
-lsp-plugins
-lua51
-lua52
-lua52-bitop
-lua52-expat
-lua52-lpeg
-lua52-luajson
-lua52-socket
-luajit
-luit
-lutris
-lvm2
-lxappearance-gtk3
-lxc
-lxqt-config
-lxqt-themes
-lz4
-lzip
-lzo
-m4
-mailcap
-make
-man-db
-maven
-mbedtls
-md4c
-mdadm
-media-player-info
-mesa
-mesa-demos
-meson
-metis
-minizip
-mjpegtools
-mkinitcpio
-mkinitcpio-busybox
-mlt6
-mobile-broadband-provider-info
-mpfr
-mpg123
-mpv
-msgpack-c
-mtdev
-mujs
-mypaint-brushes1
-nautilus
-ncdu
-ncurses
-ndctl
-neofetch
-neon
-neovim
-netpbm
-netstandard-targeting-pack
-netstat-nat
-nettle
-networkmanager
-ninja
-nitrogen
-nlohmann-json
-node-gyp
-nodejs
-nodejs-nopt
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
-noto-fonts-extra
-npm
-npth
-nspr
-nss
-ntfs-3g
-numactl
-nvidia
-nvidia-dkms
-nvidia-settings
-nvidia-utils
-nvtop
-obs-studio
-ocaml
-ocaml-compiler-libs
-ocaml-compiler-libs-repackaged
-ocaml-csexp
-ocaml-ctypes
-ocaml-findlib
-ocaml-integers
-ocaml-ppx_derivers
-ocaml-result
-ocaml-sexplib0
-ocaml-stdlib-shims
-ocaml-topkg
-ocamlbuild
-ocl-icd
-octave
-oniguruma
-opam
-openal
-openbox
-openbsd-netcat
-opencl-nvidia
-opencolorio1
-opencore-amr
-openexr
-openjpeg2
-openmpi
-openssh
-openssl
-opentimelineio
-opus
-orc
-os-prober
-osinfo-db
-otf-cascadia-code
-otf-fira-mono
-otf-font-awesome
-oxygen-icons
-p11-kit
-p7zip
-pacman
-pacman-contrib
-pacman-mirrorlist
-pahole
-pam
-pambase
-pango
-pangomm
-parted
-patch
-pavucontrol
-pciutils
-pcre
-pcre2
-pcsclite
-perl
-perl-clone
-perl-encode-locale
-perl-error
-perl-file-listing
-perl-html-parser
-perl-html-tagset
-perl-http-cookies
-perl-http-daemon
-perl-http-date
-perl-http-message
-perl-http-negotiate
-perl-io-html
-perl-libwww
-perl-lwp-mediatypes
-perl-mailtools
-perl-net-http
-perl-net-telnet
-perl-timedate
-perl-try-tiny
-perl-uri
-perl-www-robotrules
-perl-xml-parser
-picom
-pinentry
-pipewire
-pixman
-pkgconf
-pm2
-polkit
-polkit-qt5
-poppler
-poppler-data
-poppler-glib
-poppler-qt5
-popt
-portaudio
-postgresql
-postgresql-libs
-procps-ng
-projectm
-protobuf
-psmisc
-pth
-pulseaudio
-pulseaudio-equalizer
-pulseaudio-qt
-purpose
-python
-python-aaf2
-python-anytree
-python-apipkg
-python-appdirs
-python-argcomplete
-python-attrs
-python-babel
-python-cachecontrol
-python-cairo
-python-cffi
-python-chardet
-python-colorama
-python-commonmark
-python-contextlib2
-python-cryptography
-python-daemonize
-python-dateutil
-python-distlib
-python-distro
-python-dnspython
-python-docopt
-python-docutils
-python-evdev
-python-freezegun
-python-future
-python-gobject
-python-greenlet
-python-html5lib
-python-idna
-python-ifaddr
-python-imagesize
-python-importlib-metadata
-python-iniconfig
-python-isodate
-python-jinja
-python-jsonschema
-python-junit-xml
-python-keyutils
-python-lxml
-python-markdown
-python-markupsafe
-python-mock
-python-more-itertools
-python-msgpack
-python-netifaces
-python-notify2
-python-numpy
-python-ordered-set
-python-packaging
-python-pbr
-python-pep517
-python-pillow
-python-pip
-python-pluggy
-python-ply
-python-progress
-python-protobuf
-python-psutil
-python-py
-python-pyalsa
-python-pycountry
-python-pycparser
-python-pycryptodome
-python-pygments
-python-pynvim
-python-pyopenssl
-python-pyparsing
-python-pyqt5
-python-pyqt5-sip
-python-pyqt5-webengine
-python-pyroute2
-python-pyrsistent
-python-pysocks
-python-pytest
-python-pytz
-python-pyudev
-python-recommonmark
-python-requests
-python-requests-mock
-python-requests-toolbelt
-python-resolvelib
-python-retrying
-python-ruamel-yaml
-python-ruamel.yaml.clib
-python-setproctitle
-python-setuptools
-python-six
-python-snowballstemmer
-python-sphinx
-python-sphinx-alabaster-theme
-python-sphinxcontrib-applehelp
-python-sphinxcontrib-devhelp
-python-sphinxcontrib-htmlhelp
-python-sphinxcontrib-jsmath
-python-sphinxcontrib-qthelp
-python-sphinxcontrib-serializinghtml
-python-termcolor
-python-toml
-python-tqdm
-python-urllib3
-python-webencodings
-python-websocket-client
-python-wheel
-python-xcffib
-python-yaml
-python-zeroconf
-python-zipp
-python2
-python2-cairo
-qalculate-gtk
-qbittorrent
-qca-qt5
-qhull
-qrupdate
-qscintilla-qt5
-qt5-base
-qt5-declarative
-qt5-graphicaleffects
-qt5-gsettings
-qt5-location
-qt5-multimedia
-qt5-networkauth
-qt5-quickcontrols
-qt5-quickcontrols2
-qt5-speech
-qt5-svg
-qt5-tools
-qt5-wayland
-qt5-webchannel
-qt5-webengine
-qt5-websockets
-qt5-x11extras
-qt6-base
-qt6-declarative
-qt6-quickcontrols2
-qt6-svg
-qt6-tools
-quazip
-qutebrowser
-ranger
-raptor
-rasqal
-rav1e
-rclone
-re2
-readline
-redland
-rest
-rhash
-ripgrep
-rofi
-rofi-calc
-rpcbind
-rsync
-rtkit
-rtmpdump
-rttr
-rubberband
-ruby
-ruby-diff-lcs
-ruby-irb
-ruby-manpages
-ruby-optimist
-ruby-paint
-ruby-rainbow
-ruby-rdoc
-ruby-reline
-ruby-rspec
-ruby-rspec-core
-ruby-rspec-expectations
-ruby-rspec-mocks
-ruby-rspec-support
-ruby-term-ansicolor
-ruby-tins
-rubygems
-run-parts
-rustup
-sbc
-screen
-sdl
-sdl2
-sdl2_image
-sdl_image
-sed
-semver
-serd
-shaderc
-shadow
-shared-mime-info
-signon-kwallet-extension
-signon-plugin-oauth2
-signon-ui
-signond
-slang
-slop
-smbclient
-snappy
-sndio
-solid
-sonnet
-sord
-sound-theme-freedesktop
-soundtouch
-spandsp
-speedtest-cli
-speex
-speexdsp
-spirv-tools
-sqlcipher
-sqlite
-sratom
-srt
-starship
-startup-notification
-steam
-sudo
-suitesparse
-sundials
-svt-av1
-svt-hevc
-swig
-sxiv
-syndication
-sysfsutils
-systemd
-systemd-libs
-systemd-sysvcompat
-taglib
-talloc
-tar
-tbb
-tdb
-tevent
-texinfo
-thin-provisioning-tools
-thunar
-thunar-volman
-tidy
-tinyxml
-tldr
-totem-pl-parser
-tracker3
-tracker3-miners
-tree
-tree-sitter
-tslib
-ttf-croscore
-ttf-dejavu
-ttf-fira-code
-ttf-fira-mono
-ttf-fira-sans
-ttf-font-awesome
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-linux-libertine
-ttf-nerd-fonts-symbols
-ttf-opensans
-ttf-roboto
-ttf-ubuntu-font-family
-twolame
-tzdata
-uchardet
-udiskie
-udisks2
-ufw
-unibilium
-unrar
-unzip
-upower
-usbmuxd
-usbutils
-util-linux
-util-linux-libs
-v4l-utils
-vala
-vcdimager
-vid.stab
-vim
-vim-runtime
-virtualbox
-virtualbox-guest-iso
-virtualbox-guest-utils
-virtualbox-host-dkms
-virtualbox-sdk
-vlc
-vmaf
-volume_key
-vulkan-icd-loader
-wavpack
-wayland
-wayland-protocols
-webkit2gtk
-webrtc-audio-processing
-wget
-which
-whois
-wildmidi
-wine-staging
-winetricks
-woff2
-wpa_supplicant
-wpebackend-fdo
-x264
-x265
-xautolock
-xautomation
-xbitmaps
-xcb-proto
-xcb-util
-xcb-util-cursor
-xcb-util-image
-xcb-util-keysyms
-xcb-util-renderutil
-xcb-util-wm
-xcb-util-xrm
-xclip
-xcursor-neutral
-xcursor-themes
-xdg-dbus-proxy
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-xdg-user-dirs
-xdg-utils
-xdotool
-xf86-input-libinput
-xf86-input-wacom
-xf86-video-vesa
-xf86-video-vmware
-xfconf
-xfsprogs
-xkeyboard-config
-xmlsec
-xorg-bdftopcf
-xorg-docs
-xorg-font-util
-xorg-fonts-100dpi
-xorg-fonts-75dpi
-xorg-fonts-alias-100dpi
-xorg-fonts-alias-75dpi
-xorg-fonts-alias-misc
-xorg-fonts-encodings
-xorg-fonts-misc
-xorg-iceauth
-xorg-mkfontscale
-xorg-server
-xorg-server-common
-xorg-server-devel
-xorg-server-xephyr
-xorg-server-xnest
-xorg-server-xvfb
-xorg-sessreg
-xorg-setxkbmap
-xorg-smproxy
-xorg-util-macros
-xorg-x11perf
-xorg-xauth
-xorg-xbacklight
-xorg-xcmsdb
-xorg-xcursorgen
-xorg-xdpyinfo
-xorg-xdriinfo
-xorg-xev
-xorg-xgamma
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xkbcomp
-xorg-xkbevd
-xorg-xkbutils
-xorg-xkill
-xorg-xlsatoms
-xorg-xlsclients
-xorg-xmessage
-xorg-xmodmap
-xorg-xpr
-xorg-xprop
-xorg-xrandr
-xorg-xrdb
-xorg-xrefresh
-xorg-xset
-xorg-xsetroot
-xorg-xvinfo
-xorg-xwayland
-xorg-xwd
-xorg-xwininfo
-xorg-xwud
-xorgproto
-xosd
-xterm
-xvidcore
-xxhash
-xz
-yajl
-yaml-cpp
-yasm
-youtube-dl
-zam-plugins
-zbar
-zenity
-zeromq
-zimg
-zip
-zita-alsa-pcmi
-zita-convolver
-zita-resampler
-zlib
-zsh
-zsh-autosuggestions
-zsh-completions
-zsh-history-substring-search
-zsh-syntax-highlighting
-zstd
-zvbi
-zxing-cpp
+alacritty 0.8.0-1
+alsa-utils 1.2.5.1-1
+apaste 1.2.5-1
+asciinema 2.0.2-5
+autoconf 2.71-1
+automake 1.16.3-1
+base 2-2
+bat 0.18.2-1
+bc 1.07.1-4
+bdf-unifont 13.0.06-1
+binutils 2.36.1-3
+bison 3.7.6-1
+bitwarden-cli 1.17.1-1
+bpytop 1.0.67-1
+calf 0.90.3-4
+cava 0.7.4-1
+cdrtools 3.02a09-4
+chatterino2-git r3171.3fddafb8-1
+cmus 2.9.1-1
+colorpicker 1.0.f5d441a-2
+cowsay 3.04-2
+cpuminer 2.5.1-1
+deadbeef 1.8.7-1
+discord 0.0.15-1
+dmenu 5.0-1
+dos2unix 7.4.2-1
+downgrade 10.1.0-1
+dunst 1.6.1-2
+efibootmgr 17-2
+element-desktop 1.7.29-2
+entr 5.0-1
+escrotum-git 0.2.1.r48.a41d0f1-1
+ethminer-cuda 0.19.0-6
+exa 0.10.1-1
+factorio 1.1.35-1
+fakeroot 1.25.3-2
+feh 3.7-1
+ffmpeg 2:4.4-4
+ffmpegthumbnailer 2.2.2-2
+firefox 90.0-1
+fish 3.3.1-1
+flameshot 0.10.0-1
+flavours 0.5.0-1
+flex 2.6.4-3
+fzf 0.27.2-1
+gcc 11.1.0-1
+gimp 2.10.24-5
+git 2.32.0-1
+go-ethereum 1.10.5-1
+google-chrome 91.0.4472.164-1
+gparted 1.3.0-4
+grub 2:2.06-1
+gsettings-qt 0.1.20170110-3
+gst-plugins-good 1.18.4-2
+gtk-theme-switch2 2.1.0-5
+haguichi 1.4.4-1
+hdparm 9.62-1
+htop 3.0.5-1
+httpie 2.4.0-1
+i3-gaps 4.19.1-1
+i3blocks 1.5-3
+i3lock-color 2.13.c.3-1
+i3status 2.13-3
+imv 4.2.0-3
+input-wacom-dkms 0.47.0-2
+intel-ucode 20210608-1
+java11-openjfx 11.0.10.u1-1
+java8-openjfx 8.u202-3
+jdk-openjdk 16.0.1.u9-1
+jdk11-openjdk 11.0.11.u9-1
+jdk8-openjdk 8.u292-1
+jq 1.6-4
+kdeconnect 21.04.3-1
+kdenlive 21.04.3-1
+kdiskmark 2.2.0-1
+krita 4.4.5-3
+krusader 2.7.2-4
+kvantum-qt5 0.19.0-1
+kvantum-theme-materia 20210410-1
+lib32-alsa-lib 1.2.5.1-1
+lib32-db 5.3.28-4
+lib32-gnutls 3.7.2-1
+lib32-libpulse 14.2-2
+lib32-libsamplerate 0.2.1-1
+lib32-portaudio 1:19.7.0-1
+libnm-glib 1.18.5dev+12+ga8746f48ca-1
+libreoffice-fresh 7.1.4-1
+linux-firmware 20210511.7685cf4-1
+linux-headers 5.12.15.arch1-1
+linux-zen 5.12.15.zen1-1
+linux-zen-headers 5.12.15.zen1-1
+logmein-hamachi 2.1.0.203-1
+lolcat 100.0.1-1
+lsp-plugins 1.1.30-1
+lutris 0.5.8.4-1
+lxappearance-gtk3 0.6.3-4
+lxqt-config 0.17.1-1
+m4 1.4.19-1
+mailspring 1.9.1-1
+make 4.3-3
+mangohud 0.6.5-1
+maven 3.8.1-1
+minecraft-launcher 921-1
+mpris-ctl 0.8.3-1
+mpv 1:0.33.1-2
+multimc-bin 0.6.12.1438-2
+nautilus 40.2-1
+ncdu 1.16-1
+neofetch 7.1.0-2
+neovide 0.7.0-1
+neovim 0.5.0-1
+neovim-remote 2.4.0-3
+netstat-nat 1.4.10-5
+network-manager-applet-gtk2-jlindgren90-git 1.8.2.r4119.20201223-1
+networkmanager 1.32.2-1
+nitrogen 1.6.1-3
+nlohmann-json 3.9.1-3
+noto-fonts 20201226-2
+noto-fonts-cjk 20201206-2
+noto-fonts-emoji 20210625-1
+ntfs-3g 2017.3.23-5
+nvidia 465.31-14
+nvidia-dkms 465.31-1
+nvidia-settings 465.31-1
+nvtop 1.2.1-1
+obs-studio 27.0.1-2
+ocs-url 3.1.0-7
+octave 6.3.0-1
+oneko 1.2.5-4
+openbox 3.6.1-7
+openbsd-netcat 1.217_2-1
+opencl-nvidia 465.31-1
+opentabletdriver-git v0.5.3.1.r223.g72f96bf1-1
+opentimelineio 0.13-1
+os-prober 1.79-1
+osu-lazer-bin 2021.707.0-2
+otf-cascadia-code 2105.24-1
+otf-fira-mono 2:3.206-4
+otf-font-awesome 5.15.3-1
+p3x-onenote 2021.4.175-1
+patch 2.7.6-8
+pavucontrol 1:4.0-2
+perl-net-telnet 3.04-7
+picom 8.2-1
+pipes.sh 1.3.0-1
+pkgconf 1.7.3-1
+pm2 5.1.0-1
+polybar 3.5.6-1
+polychromatic 0.3.12-3
+postgresql 13.3-3
+pulseaudio 14.2-3
+pulseaudio-dlna 0.5.2.r152.gb0db813-6
+pulseaudio-equalizer 14.2-3
+pulseeffects-legacy 4.8.5-3
+python-importlib-metadata 4.6.1-1
+python-pip 20.3.4-1
+python-pyalsa 1.1.6-6
+python2 2.7.18-3
+qalculate-gtk 3.19.0-1
+qbittorrent 4.3.6-1
+qt5-gsettings 1.3.0-1
+qt5-styleplugins 5.0.0.20170311-26
+qt6-quickcontrols2 6.1.2-1
+qt6-tools 6.1.2-2
+qt6gtk2 0.1-1
+qutebrowser 2.3.0-1
+ranger 1.9.3-3
+rclone 1.55.1-1
+rnnoise-git r88.1cbdbcf-1
+rofi 1.6.1-1
+rofi-calc 2.0.0-1
+rofi-file-browser-extended-git 1.2.0.r5.g2564874-1
+rsync 3.2.3-3
+rustup 1.24.3-1
+satanic-icon-themes 666.9-1
+scrcpy 1.18-1
+screen 4.8.0-3
+screencast 1.6.0-1
+siji 2021.01.01-1
+simple-mtpfs 0.4.0-1
+slop 7.5-5
+soundwire 3.0.0-3
+speedtest-cli 2.1.3-1
+spotify 1:1.1.56.595-1
+starship 0.56.0-1
+steam 1.0.0.70-1
+streamlink-git 2.2.0.r38.g779062c1-1
+sudo 1.9.7.p1-1
+sxiv 26-1
+texinfo 6.8-1
+thunar 4.16.8-1
+thunar-volman 4.16.0-1
+tldr 1.2.1-1
+trayer 1.1.8-2
+tree 1.8.0-2
+ttf-dejavu 2.37+18+g9b5d1b2f-3
+ttf-fira-code 5.2-1
+ttf-font-awesome 5.15.3-1
+ttf-inconsolata 1:3.000-3
+ttf-indic-otf 0.2-11
+ttf-iosevka-fixed 7.3.1-1
+ttf-linux-libertine 5.3.0-7
+ttf-ms-fonts 2.0-12
+ttf-nerd-fonts-symbols 2.1.0+36+gd0bf73a1-4
+ttf-ubuntu-font-family 0.83-7
+udiskie 2.3.3-1
+ufw 0.36-5
+unrar 1:6.0.7-1
+vim-plug 0.10.0-1
+virtualbox 6.1.22-3
+virtualbox-guest-iso 6.1.22-1
+virtualbox-guest-utils 6.1.22-3
+virtualbox-host-dkms 6.1.22-3
+virtualbox-sdk 6.1.22-3
+visual-studio-code-bin 1.58.2-1
+vlc 3.0.16-2
+wacom-utility 1.21-6
+wget 1.21.1-1
+which 2.21-5
+whois 5.5.10-1
+wine-staging 6.12.1-1
+winetricks 20210206-1
+xautolock 2.2-6
+xclip 0.13-3
+xcursor-neutral 1.13a-9
+xcursor-themes 1.0.6-2
+xdotool 3.20160805.1-3
+xf86-video-vesa 2.5.0-1
+xorg-bdftopcf 1.1-2
+xorg-docs 1.7.1-3
+xorg-font-util 1.3.2-2
+xorg-fonts-100dpi 1.0.3-7
+xorg-fonts-75dpi 1.0.3-7
+xorg-fonts-encodings 1.0.5-2
+xorg-iceauth 1.0.8-2
+xorg-mkfontscale 1.2.1-2
+xorg-server 1.20.12-1
+xorg-server-common 1.20.12-1
+xorg-server-devel 1.20.12-1
+xorg-server-xephyr 1.20.12-1
+xorg-server-xnest 1.20.12-1
+xorg-server-xvfb 1.20.12-1
+xorg-sessreg 1.1.2-2
+xorg-setxkbmap 1.3.2-2
+xorg-smproxy 1.0.6-3
+xorg-x11perf 1.6.1-2
+xorg-xauth 1.1-2
+xorg-xbacklight 1.2.3-2
+xorg-xcmsdb 1.0.5-3
+xorg-xcursorgen 1.0.7-2
+xorg-xdpyinfo 1.3.2-4
+xorg-xdriinfo 1.0.6-2
+xorg-xev 1.2.4-1
+xorg-xgamma 1.0.6-3
+xorg-xhost 1.0.8-2
+xorg-xinit 1.4.1-3
+xorg-xinput 1.6.3-2
+xorg-xkbcomp 1.4.5-1
+xorg-xkbevd 1.1.4-3
+xorg-xkbutils 1.0.4-4
+xorg-xkill 1.0.5-2
+xorg-xlsatoms 1.1.3-2
+xorg-xlsclients 1.1.4-2
+xorg-xmodmap 1.0.10-2
+xorg-xpr 1.0.5-2
+xorg-xprop 1.2.5-1
+xorg-xrandr 1.5.1-2
+xorg-xrdb 1.2.0-2
+xorg-xrefresh 1.0.6-2
+xorg-xset 1.2.4-2
+xorg-xsetroot 1.1.2-2
+xorg-xvinfo 1.1.4-2
+xorg-xwayland 21.1.2-1
+xorg-xwd 1.0.7-2
+xorg-xwininfo 1.1.5-2
+xorg-xwud 1.0.5-2
+xterm 368-1
+xwinwrap-git r5.ec32e9b-1
+yay 10.3.0-1
+youtube-dl 2021.06.06-1
+zam-plugins 3.14-1
+zip 3.0-9
+zplug 2.4.2-1
+zsh 5.8-1
+zsh-autosuggestions 0.7.0-1
+zsh-completions 0.33.0-1
+zsh-history-substring-search 1.0.2-1
+zsh-syntax-highlighting 0.7.1-1
