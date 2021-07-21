@@ -31,7 +31,7 @@ if [ "$yesnt" = "y" ]; then
     echo ""
     echo "Workers:"
     echo "$workers"
-    exec https GET "https://api.flexpool.io/v2/miner/payments?coin=eth&address=0xB9c434215c09E8c4D6b621E6488D55E1d20CE446&countervalue=USD&page=0"
+    exec https GET "https://api.flexpool.io/v2/miner/payments?coin=eth&address=0x37Cba5798f68684907CB917AFB9dcEbE73187137&countervalue=USD&page=0" | jq '.result'
 else
     echo ""
     echo "1 ETH = $eth_in_usd USD / $eth_in_brl BRL"
