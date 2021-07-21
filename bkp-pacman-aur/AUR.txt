@@ -44,6 +44,7 @@ flameshot 0.10.0-1
 flavours 0.5.0-1
 flex 2.6.4-3
 fzf 0.27.2-1
+gamemode 1.6.1-1
 gcc 11.1.0-1
 gimp 2.10.24-5
 git 2.32.0-1
@@ -110,6 +111,7 @@ neofetch 7.1.0-2
 neovide 0.7.0-1
 neovim 0.5.0-1
 neovim-remote 2.4.0-3
+nerd-fonts-fira-code 2.1.0-2
 netstat-nat 1.4.10-5
 network-manager-applet-gtk2-jlindgren90-git 1.8.2.r4119.20201223-1
 networkmanager 1.32.2-1
