@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-## new api
-#balance real = value=$(https "https://api.flexpool.io/v2/miner/balance?coin=eth&address=0x37Cba5798f68684907CB917AFB9dcEbE73187137&countervalue=brl" | jq ".result.balanceCountervalue") && echo $value reais
-#hashrates = https "https://api.flexpool.io/v2/miner/workers?coin=eth&address=0x37Cba5798f68684907CB917AFB9dcEbE73187137" | jq 'G.result[].name, .result[].isOnline,.result[].averageEffectiveHashrate, .result[].reportedHashrate, .result[].validShares'
-#payments = https "https://api.flexpool.io/v2/miner/payments?coin=eth&address=0x37Cba5798f68684907CB917AFB9dcEbE73187137&countervalue=USD&page=0"
-
 eth_in_usd=$(https "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD" | jq '.USD')
 eth_in_brl=$(https "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BRL" | jq '.BRL')
 
@@ -23,11 +18,28 @@ balance_brl=$(bc <<< "scale=2; $balance_eth * $eth_in_brl" | awk '{printf "%.2f"
 #monthly_brl=$(bc <<< "scale=2; $monthly_eth * $eth_in_brl" | awk '{printf "%.2f", $0}')
 
 
-echo "1 ETH = $eth_in_usd USD / $eth_in_brl BRL"
-echo ""
-echo "Balance: $balance_eth ETH | $balance_usd USD | $balance_brl BRL"
-#echo "Daily: $daily_eth ETH | $daily_usd USD | $daily_brl BRL"
-#echo "Monthly: $monthly_eth ETH | $monthly_usd USD | $monthly_brl BRL"
-echo ""
-echo "Workers:"
-echo "$workers"
+echo "Wanna see payments? y/n "
+read -r yesnt &&
+
+if [ "$yesnt" = "y" ]; then
+    echo ""
+    echo "1 ETH = $eth_in_usd USD / $eth_in_brl BRL"
+    echo ""
+    echo "Balance: $balance_eth ETH | $balance_usd USD | $balance_brl BRL"
+    #echo "Daily: $daily_eth ETH | $daily_usd USD | $daily_brl BRL"
+    #echo "Monthly: $monthly_eth ETH | $monthly_usd USD | $monthly_brl BRL"
+    echo ""
+    echo "Workers:"
+    echo "$workers"
+    exec https GET "https://api.flexpool.io/v2/miner/payments?coin=eth&address=0xB9c434215c09E8c4D6b621E6488D55E1d20CE446&countervalue=USD&page=0"
+else
+    echo ""
+    echo "1 ETH = $eth_in_usd USD / $eth_in_brl BRL"
+    echo ""
+    echo "Balance: $balance_eth ETH | $balance_usd USD | $balance_brl BRL"
+    #echo "Daily: $daily_eth ETH | $daily_usd USD | $daily_brl BRL"
+    #echo "Monthly: $monthly_eth ETH | $monthly_usd USD | $monthly_brl BRL"
+    echo ""
+    echo "Workers:"
+    echo "$workers"
+fi
