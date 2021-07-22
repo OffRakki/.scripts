@@ -54,6 +54,7 @@ grub 2:2.06-1
 gsettings-qt 0.1.20170110-3
 gst-plugins-good 1.18.4-2
 gtk-theme-switch2 2.1.0-5
+gwe 0.15.3-1
 haguichi 1.4.4-1
 hdparm 9.62-1
 htop 3.0.5-1
@@ -111,7 +112,7 @@ neofetch 7.1.0-2
 neovide 0.7.0-1
 neovim 0.5.0-1
 neovim-remote 2.4.0-3
-nerd-fonts-fira-code 2.1.0-2
+nerd-fonts-complete 2.1.0-6
 netstat-nat 1.4.10-5
 network-manager-applet-gtk2-jlindgren90-git 1.8.2.r4119.20201223-1
 networkmanager 1.32.2-1
@@ -204,7 +205,6 @@ ttf-indic-otf 0.2-11
 ttf-iosevka-fixed 7.3.1-1
 ttf-linux-libertine 5.3.0-7
 ttf-ms-fonts 2.0-12
-ttf-nerd-fonts-symbols 2.1.0+36+gd0bf73a1-4
 ttf-ubuntu-font-family 0.83-7
 udiskie 2.3.3-1
 ufw 0.36-5
