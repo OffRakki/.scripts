@@ -183,6 +183,7 @@ satanic-icon-themes 666.9-1
 scrcpy 1.18-1
 screen 4.8.0-3
 screencast 1.6.0-1
+scrot 1.5-1
 siji 2021.01.01-1
 simple-mtpfs 0.4.0-1
 slop 7.5-5
@@ -290,6 +291,7 @@ zathura 0.4.7-1
 zip 3.0-9
 zplug 2.4.2-1
 zsh 5.8-1
+zsh-abbr 4.3.0-1
 zsh-autosuggestions 0.7.0-1
 zsh-completions 0.33.0-1
 zsh-history-substring-search 1.0.2-1
