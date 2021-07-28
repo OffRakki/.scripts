@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 img=$(escrotum -s '/tmp/escrotum_%F_%T_$wx$h.png') &&\
-    option=$(find $HOME/.scripts/escrotum/options/ -type f | cut -d '/' -f7 | sort -r | alacritty-fzf) &&\
+    option=$(find $HOME/.scripts/escrotum/options/ -type f | cut -d '/' -f7 | sort | alacritty-fzf) &&\
     if [ "$option" == "clipboard" ]; then
         xclip -selection clipboard -t image/png < $img
     elif [ "$option" == "save" ]; then
