@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rofi -modi "drun,run,file-browser" -theme ~/.config/rofi/themes/uwu.rasi -show drun -icon-theme "Infinity-Dark-Icons" -show-icons
+rofi -modi "drun,run,file-browser" -theme ~/.config/rofi/themes/uwuflavours.rasi -show drun -icon-theme "candy-icons" -show-icons
