@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+mcstatus mc.misterio.me ping &> /dev/null && echo "   $(mcstatus mc.misterio.me json | jq '.player_count') " || echo " "
