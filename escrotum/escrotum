@@ -13,7 +13,7 @@ img=$(escrotum -s '/tmp/escrotum_%F_%T_$wx$h.png') &&\
             response=$(https --ignore-stdin --check-status --form POST "api.imgur.com/3/upload" Authorization:"Client-ID $id" image@"$img") &&\
             echo $response | jq -r '.data.link' | xclip -selection clipboard && notify-send "Link sent to clipboard."
     elif [ "$option" == "phone" ]; then
-            kdeconnect-cli -n $kde_device --share $img && sleep 15 && rm $img
+            kdeconnect-cli -n $kde_device --share $img && sleep 8 && rm $img
     else
             exit
     fi
