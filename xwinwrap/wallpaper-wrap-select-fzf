@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-choose=$(find $HOME/AnimatedWallpapers/ -type f | cut -d '/' -f5 | sort -r | alacritty-fzf) && wallpaper=$HOME/AnimatedWallpapers/$choose || exit
+choose=$(find $HOME/AnimatedWallpapers/ -type f | cut -d '/' -f5 | sort -r | alacritty-fzf --info=hidden) && wallpaper=$HOME/AnimatedWallpapers/$choose || exit
 
 killall xwinwrap
 

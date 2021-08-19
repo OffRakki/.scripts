@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+option=$(cat $HOME/.scripts/power/options | sort | alacritty-power --info=hidden) &&\
+  if [ "$option" == "switch_user" ]; then
+      i3exit switch_user
+  elif [ "$option" == "suspend" ]; then
+          i3exit suspend
+  elif [ "$option" == "shutdown" ]; then
+          i3exit shutdown
+  elif [ "$option" == "reboot" ]; then
+          i3exit reboot
+  elif [ "$option" == "logout" ]; then
+          i3exit logout
+  elif [ "$option" == "hibernate" ]; then
+          i3exit hibernate
+  elif [ "$option" == "lock" ]; then
+          i3exit lock
+  else
+          exit
+  fi
