@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+options_path=$HOME/.scripts/escrotum/options
 kde_device=Shiro
 
+
 img=$(escrotum -s '/tmp/escrotum_%F_%T_$wx$h.png') &&\
-    option=$(cat $HOME/.scripts/escrotum/options | sort | alacritty-fzf --info=hidden) &&\
+    option=$(cat $options_path | sort | alacritty-fzf --info=hidden) &&\
     if [ "$option" == "clipboard" ]; then
         xclip -selection clipboard -t image/png < $img && rm $img
     elif [ "$option" == "save" ]; then
