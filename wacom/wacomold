@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 xsetwacom set "Wacom Intuos S 2 Pen stylus" MapToOutput HEAD-0
-xsetwacom set "Wacom Intuos S 2 Pen stylus" Area 1920 1920 6100 5300
+xsetwacom set "Wacom Intuos S 2 Pen stylus" Area 1920 1920 5400 4500
 xsetwacom set "Wacom Intuos S 2 Pen stylus" Mode Absolute
 xsetwacom -s --set "Wacom Intuos S 2 Pen stylus" Button 2 "button 0"
 xsetwacom -s --set "Wacom Intuos S 2 Pen stylus" Button 3 "button 0"
